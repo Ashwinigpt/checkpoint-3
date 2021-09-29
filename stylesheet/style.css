@@ -1,0 +1,396 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom*/
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+.container-1{
+  max-width: 1200;
+  padding: 0 128px;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+/*header-1*/
+.header-1{
+  background-color: rgb(24,37,93);
+  padding: 12px 0;
+}
+.location a{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+.gmail a{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  margin-right: 450px;
+}
+.icons a{
+  margin-right: 15px;
+  color: white;
+  font-size: 12px;
+}
+/*header-2*/
+.header-2{
+  padding: 24px 0;
+}
+.header-nav a{
+  margin: 15px;
+  text-decoration: none;
+  font-size: 10px;
+}
+.contact-now{
+  background-color: rgb(255,73,101);
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+  border-radius: 5px;
+  width: 120px;
+  text-align: center;
+}
+/*main*/
+.container-2{
+  max-width: 1200;
+  margin: 0 auto;
+  padding: 0 250px;
+}
+.bg-img{
+  background-image: url(../assets/media/hero/h1_hero.jpg);
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+.learn-more{
+  background-color: rgb(255,73,101);
+  color: white;
+  width: 120px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+.child{
+  position: absolute;
+  top: 30%;
+  width: 30%;
+}
+.welcome{
+  color: rgb(255,73,101);
+  font-size: 10px;
+  padding: 10px;
+}
+h1{
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(24,37,93);
+  margin-bottom: 20px;
+}
+/*business planning*/
+.bg-color{
+  background-color: rgb(246,248,254);
+}
+.business{
+  color: rgb(24,37,93);
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.para{
+  font-size: 10px;
+  color: rgb(90, 106, 134);
+}
+.team-1 img{
+  width: 100%;
+}
+.flex-30{
+  flex: 0 1 30%;
+}
+.box{
+  border: 2px red solid;
+  height: 270px;
+  width: 230px;
+  padding: 20px;
+  background-color: white;
+}
+h4{
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(24,37,93);
+}
+.line{
+  width: 60px;
+  height: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: red;
+}
+.view{
+  font-size: 10px;
+  margin-top: 25px;
+  color: rgb(24,37,93);
+}
+.padding{
+  padding: 100px 220px;
+}
+/*grp work*/
+.grp-img{
+  width: 400px;
+  height: 380px;
+  margin-top: 100px;
+  /* position: relative; */
+}
+.grp-work-box{
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 210%;
+  left: 45%;
+  margin-right: 420px;
+  padding: 25px;
+}
+h5{
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(24,37,93);
+}
+.grp-work-box .grp-work-para{
+  font-size: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(90, 106, 134);
+}
+/*our-services*/
+h6{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 60px;
+  color: black;
+}
+.service-1{
+  background-color: rgb(252,253,255);
+  width: 20%;
+}
+.team-1 a{
+  margin-left: 50px;
+  font-size: 40px;
+  color: gray;
+}
+.more-service{
+  border: 2px red solid;
+  text-align: center;
+  width: 120px;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: red;
+  margin-left:350px;
+  margin-top: 80px;
+  
+}
+/*completed cases*/
+.bg-color1{
+  background-color: rgb(246,248,254);
+  height: 500px;
+  position: relative;
+}
+.completed{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  right: 50%;
+}
+.completed-cases{
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(24,37,93);
+}
+.see-more{
+  border: 2px red solid;
+  text-align: center;
+  width: 120px;
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  color: red;
+  margin-top: 30px;
+}
+.completed-case{
+  height: 300px;
+  width: 200px;
+  margin-top: 120px;
+}
+.completed-para{
+  font-size: 10px;
+  color: rgb(90, 106, 134);
+  margin-top: 10px;
+}
+/*testi*/
+.testi{
+  text-align: center;
+  padding: 0 400px;
+  margin-top: 100px;
+}
+.testi-para{
+  color: rgb(75, 94, 128);
+  margin-top: 20px;
+}
+.star{
+  color: rgb(252,192,44);
+  font-size: 25px;
+  margin-top: 10px;
+}
+.clifford{
+  font-size: 10px;
+  color: rgb(90, 106, 134);
+}
+.colorib{
+  font-size: 8px;
+  color: gray;
+}
+/*our recent news*/
+time{
+  font-size: 10px;
+  margin-left: 10px;
+  color: rgb(90, 106, 134);
+}
+
+/*footer-1*/
+.footer{
+  background-color: rgb(24,37,93);
+  padding: 80px 0;
+  margin-bottom: 100px;
+}
+.request{
+  margin-left: 200px;
+  width: 20%;
+}
+.request-call{
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+}
+.req-para{
+  font-size: 10px;
+  margin-top: 10px;
+  color: white;
+}
+.name{
+  border: 1px rgb(80, 81, 85) solid;
+  padding: 6px;
+  width: 250px;
+  border-radius: 2px;
+  color: white;
+  margin: 10px;
+}
+.name-box{
+  margin-right: 160px;
+}
+.service{
+  width: 380px;
+}
+.down{
+  margin-right: 170px;
+  margin-top: -5px;
+}
+.footer-brand{
+  width: 20%;
+  margin-left: 200px;
+}
+.get-in-touch{
+  margin-right: 250px;
+  margin-top: -70px;
+}
+.last-para{
+  font-size: 8px;
+  color: rgb(90, 106, 134);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.footer-nav a{
+  color: black;
+  font-size: 12px;
+  margin: 5px;
+}
+.company{
+  color: rgb(24,37,93);
+}
+.company-2{
+  color: rgb(24,37,93);
+  margin-top: -40px;
+}
+.col-2{
+  font-size: 12px;
+  color: rgb(90, 106, 134)
+}
+.col-3{
+  font-size: 12px;
+  color: rgb(90, 106, 134);
+}
+small{
+  margin-left: 300px;
+  padding: 20px;
+  font-size: 10px;
+  color: gray;
+}
