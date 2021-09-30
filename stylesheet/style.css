@@ -92,7 +92,7 @@ body{
 }
 /*header-2*/
 .header-2{
-  padding: 24px 0;
+  padding: 16px 0;
 }
 .header-nav a{
   margin: 15px;
@@ -113,6 +113,7 @@ body{
   max-width: 1200;
   margin: 0 auto;
   padding: 0 250px;
+  align-items: unset;
 }
 .bg-img{
   background-image: url(../assets/media/hero/h1_hero.jpg);
@@ -198,13 +199,15 @@ h4{
   width: 400px;
   height: 380px;
   margin-top: 100px;
-  /* position: relative; */
+}
+.grp-work{
+  position: relative;
 }
 .grp-work-box{
-  height: 250px;
+  height: 300px;
   background-color: rgba(255, 255, 255, 0.5);
   position: absolute;
-  top: 210%;
+  top: 40%;
   left: 45%;
   margin-right: 420px;
   padding: 25px;
@@ -247,7 +250,6 @@ h6{
   color: red;
   margin-left:350px;
   margin-top: 80px;
-  
 }
 /*completed cases*/
 .bg-color1{
@@ -315,7 +317,6 @@ time{
   margin-left: 10px;
   color: rgb(90, 106, 134);
 }
-
 /*footer-1*/
 .footer{
   background-color: rgb(24,37,93);
@@ -382,7 +383,7 @@ time{
 }
 .col-2{
   font-size: 12px;
-  color: rgb(90, 106, 134)
+  color: rgb(90, 106, 134);
 }
 .col-3{
   font-size: 12px;
@@ -393,4 +394,309 @@ small{
   padding: 20px;
   font-size: 10px;
   color: gray;
+}
+
+/*about.html*/
+.bg-img-about{
+  background-image: url(../assets/media/hero/about_hero.jpg);
+  height: 200px;
+  background-size: cover;
+}
+.about{
+  font-size: 35px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+/*services.html*/
+.bg-img-services{
+  background-image: url(../assets/media/hero/services_hero.jpg);
+  height: 200px;
+  background-size: cover;
+}
+/*cases.html*/
+.bg-img-cases{
+  background-image: url(../assets/media/hero/cases_hero.jpg);
+  height: 200px;
+  background-size: cover;
+}
+.images{
+  position: relative;
+}
+.marketing{
+  height: 80px;
+  width: 250px;
+  background-color: white;
+  position: absolute;
+  top: 81%;
+  left: 3%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.strategy{
+  font-size: 20px;
+}
+.completely{
+  font-size: 12px;
+  color: rgb(90, 106, 134);
+}
+.images img{
+  height: 400px;
+  width: 300px;
+  padding: 10px;
+  margin-top: 50px;
+}
+/*blog.html*/
+.bg-img-blog{
+  background-image: url(../assets/media/hero/blog_hero.jpg);
+  height: 200px;
+  background-size: cover;
+}
+.date{
+  background-color: rgb(255,73,101);
+  height: 62px;
+  width: 60px;
+  position: absolute;
+  top: 81%;
+  left: 5%;
+  border-radius: 3px;
+}
+.date time{
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+}
+.blog-img{
+  position: relative;
+}
+.blog-img img{
+  width: 500px;
+}
+.white-box{
+  background-color: white;
+  height: 150px;
+  width: 500px;
+  box-shadow: 3px 3px 6px 2px rgb(231, 224, 224);
+  margin-bottom: 30px;
+}
+.google{
+  padding: 20px;
+}
+.para-blog{
+  font-size: 10px;
+  color: rgb(90, 106, 134);
+  margin-left: 20px;
+}
+.user-nav a{
+  text-decoration: none;
+  color: gray;
+  font-size: 10px;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.blog-section{
+  margin-top: 70px;
+}
+.small-box{
+  border: 1px solid rgb(221, 215, 215);
+  padding: 10px;
+  margin: 3px;
+}
+.abc{
+  margin-left: 180px;
+  margin-top: 70px;
+}
+
+/*aside*/
+.box-1{
+  height: 120px;
+  width: 260px;
+  background-color: rgb(252,247,255);
+  padding: 20px;
+}
+.aside{
+  margin-top: 70px;
+}
+.search{
+  font-size: 10px;
+  border: 1px solid rgb(240, 234, 234);
+  height: 30px;
+  width: 180px;
+  padding: 5px;
+  background-color: white;
+  color: grey;
+}
+.search-box {
+  background-color: rgb(255,73,101);
+  height: 28px;
+  width: 30px;
+  margin-left: 180px;
+  margin-top: -30px;
+}
+.search-box a{
+  color: white;
+  margin: 8px;
+}
+.search-icon{
+  font-size: 10px;
+  border: 1px solid rgb(255,73,101);
+  height: 35px;
+  width: 210px;
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+  color: red;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+.box-2{
+  height: 300px;
+  width: 260px;
+  background-color: rgb(252,247,255);
+  padding: 20px;
+  margin-top: 20px;
+}
+.food{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.travel{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.box-3{
+  height: 350px;
+  width: 260px;
+  background-color: rgb(252,247,255);
+  padding: 20px;
+  margin-top: 20px;
+}
+.post-img{
+  height: 50px;
+  margin-top: 20px;
+}
+.from{
+  font-size: 12px;
+  margin-top: 30px;
+}
+.box-4{
+  height: 170px;
+  width: 260px;
+  background-color: rgb(252,247,255);
+  padding: 20px;
+  margin-top: 20px;
+}
+.project{
+  border: 1px solid rgb(230, 219, 219);
+  width: 80px;
+  background-color: white;
+  color: gray;
+  font-size: 10px;
+  margin: 5px;
+  text-align: center;
+}
+.tag-clouds{
+  margin-top: 20px;
+}
+.box-5{
+  height: 250px;
+  width: 260px;
+  background-color: rgb(252,247,255);
+  padding: 20px;
+  margin-top: 20px;
+}
+.instagram img{
+  width: 70px;
+}
+.instagram{
+  margin-top: 30px;
+}
+.box-6{
+  height: 180px;
+  width: 260px;
+  background-color: rgb(252,247,255);
+  padding: 20px;
+  margin-top: 20px;
+}
+.email{
+  font-size: 10px;
+  border: 1px solid rgb(240, 234, 234);
+  height: 30px;
+  width: 210px;
+  padding: 5px;
+  background-color: white;
+  margin-top: 20px;
+  color: gray;
+}
+/*blog footer*/
+.blog-footer{
+  background-color: rgb(248,249,254);
+  margin-top: 80px;
+}
+.blog{
+  margin-top: 50px;
+}
+/*contact.html*/
+.bg-img-blog{
+  background-image: url(../assets/media/hero/contact_hero.jpg);
+  height: 200px;
+  background-size: cover;
+}
+.map{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.get{
+  font-size: 20px;
+  font-weight: 700;
+}
+.enter-message{
+  height: 100px;
+  width: 470px;
+  border: 1px rgb(204, 196, 196) solid;
+  color: rgb(179, 175, 175);
+  font-size: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.enter-name{
+  height: 40px;
+  width: 230px;
+  border: 1px rgb(204, 196, 196) solid;
+  color: rgb(179, 175, 175);
+  font-size: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.enter-sub{
+  height: 40px;
+  width: 470px;
+  border: 1px rgb(204, 196, 196) solid;
+  color: rgb(179, 175, 175);
+  font-size: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.contact-icon a{
+  text-decoration: none;
+  color: grey;
+}
+.contact-icon{
+  margin-top: 50px;
+}
+.contact{
+  margin-bottom: 80px;
+}
+.send-contact{
+  border: 1px red solid;
+  text-align: center;
+  width: 120px;
+  font-size: 10px;
+  padding: 10px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+  color: red;
 }
